@@ -38,7 +38,7 @@ export default function Awesome({ quotes }: { quotes: string[] }) {
             </h1>
             <h2
                 id="awesome-quote"
-                className={`text-3xl sm:text-5xl font-medium text-center max-w-5xl w-full mx-auto py-16 ${
+                className={`text-3xl sm:text-5xl font-medium text-center max-w-5xl w-full mx-auto ${
                     isRunning ? 'whitespace-nowrap' : ''
                 } overflow-ellipsis`}
                 key={`${isRunning}`}
@@ -51,7 +51,7 @@ export default function Awesome({ quotes }: { quotes: string[] }) {
                     type="button"
                     onClick={handleRandom}
                 >
-                    ปั่นเลย
+                    ปั่นเลย 🚴‍♀️
                 </button>
                 <a
                     className="px-4 py-2 bg-white/20 hover:bg-white/40 focus:bg-white/50 backdrop-blur-lg rounded-full transition-colors"
