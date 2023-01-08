@@ -9,3 +9,17 @@
 body
     @apply font-sans bg-cover bg-center
     background-image: url('/tuna.jpg')
+
+@keyframes fade-in
+    from
+        @apply opacity-0
+        transform: scale(0)
+
+    to
+        @apply opacity-100 scale-100
+        transform: scale(1)
+
+#awesome-quote
+    @apply transform
+    line-height: 1.5em
+    animation: fade-in 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0s 1
