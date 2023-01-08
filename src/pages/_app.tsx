@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 title="วาทกรรมหมีหอยโอเวอร์ซี สุ ด เ จ๋ ง"
                 description="ปลุกความเป็นสลิ่มในตัวคุณ"
                 image={{
-                    src: '/teri.jpg',
+                    src: '/tuna.jpg',
                     width: 960,
                     height: 553
                 }}
